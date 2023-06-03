@@ -1,0 +1,39 @@
+h3 {
+    color: royalblue;
+}
+h4,p {
+    color: crimson;
+}
+p span{
+    color: blue;
+}
+span, p strong{
+    color: green;
+}
+#lox {
+    color: blue;
+    background-color: black;
+}
+#ine {
+    color: red;
+}
+#one {
+    color: yellow;
+    background-color: blue;
+}
+#uk {
+    color: blue;
+    background-color: yellow;
+}
+li:first-child{
+    color: crimson;
+}
+li:last-child{
+    color: yellowgreen;
+}
+.parent p:first-child{
+    color: red;
+}
+.parent p:nth-child(2){
+    background-color: orangered;
+}
