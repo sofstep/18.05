@@ -1,0 +1,89 @@
+body {
+    background-color: grey;
+    margin: 0;
+}
+header {
+    background-color: rgb(255, 255, 255);
+    /* height: 70px; */
+    padding: 50px 0;
+}
+div {
+    /* width: 600px; */
+    /* padding: 100px;
+    text-align: center;
+    background-color: brown;
+    margin: 0 auto; */
+}
+.text-content{
+    margin: 0 auto;
+    width: 810px;
+}
+.content-container {
+    width: 938px;
+    margin: 0 auto;
+    font-size: 0px;
+}
+.log, .h-social {
+    display: inline-block;
+    background-color: rgb(191, 249, 33);
+    font-size: 18px;
+    width: 469px;
+}
+.log a, .h-social a {
+    display: inline-block;
+}
+.h-social {
+    text-align: right;
+}
+/* style for section */
+.form-s {
+    padding: 50px 0;
+    background-color: darkgoldenrod;
+}
+.form-s h1{
+    padding: 150px ;
+    text-align: center;
+    line-height: 100%;
+}
+.form-s form{
+    text-align: center;
+}
+.form-s form input, .form-s form button{
+    display: inline-block;
+    border: none;
+    /* border: 3px solid red; */
+}
+.form-s form input{
+    width: 560px;
+    font-size: 50px;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: grey;
+    border-radius: 10px 0 0 10px;
+}
+input::placeholder{
+    color: blue;
+}
+.form-s form input:focus{
+    outline: none;
+    background-color: red;
+    border: 10px solid black;
+}
+.form-s form button{
+    background-color: darkblue;
+    padding: 10px 20px;
+    color: coral;
+}
+.form-s form button:hover{
+    background-color: red;
+    color: green;
+}
+a{
+    text-decoration: none;
+}
+.special{
+    color: fuchsia;
+}
+.special:visited{
+    color: rgb(53, 50, 204);
+}
