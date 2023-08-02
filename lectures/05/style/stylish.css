@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header{
+    padding: 50px;
+    background-color: chocolate;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+.abs{
+    position: absolute;
+    text-align: center;
+    background-color: rgb(202, 78, 202);
+    padding: 20px;
+    bottom: 30px;
+    right: 20px;
+    z-index: 2;
+}
+.rel{
+    width: 300px;
+    height: 400px;
+    padding: 100px;
+    margin: 0 auto;
+    position: relative;
+    background-color: yellowgreen;
+    overflow: auto;
+}
+.rel.move{
+    bottom: -100px;
+    left: -300px;
+    background-color: rgb(157, 19, 47);
+    z-index: 1;
+    overflow-y: auto;
+}
+a{
+    display: inline-block;
+    position: fixed;
+    padding: 20px;
+    background-color: blueviolet;
+    color: cornsilk;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid grey;
+    right: 20px;
+    bottom: 20px;
+}
+a:hover{
+    background-color: rgb(55, 16, 92);
+    border: 2px solid rgb(55, 16, 92);
+}
+.food{
+    border: 3px solid green;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 100px auto;
+    overflow: hidden;
+}
+.food img{
+    position: absolute;
+}
+
+.bottom-block{
+    width: 300px;
+    height: 120px;
+    padding: 20px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.604);
+    z-index: 2;
+}
+.food:hover{
+    border-color: red;
+}
+.food:hover img{
+    top: -50px;
+}
+.food:hover .bottom-block{
+    background-color: rgba(226, 43, 43, 0.8);
+}

@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    padding: 50px;
+    text-align: center;
+    outline: 7px ridge rgba(187, 117, 217, 0.837);border-radius: 6rem;
+}
+h1:hover{
+    font-size: 100px;
+    outline: 10px;
+    outline:  8px ridge rgba(170, 50, 220, .6);border-radius: 2rem;
+}
+h1::before{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+}
+h1::after{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+}
+h1:hover::after{
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(5, 5, 75);
+}
+h1:hover::before{
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(5, 5, 75);
+}
